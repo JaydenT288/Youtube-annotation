@@ -1,0 +1,16 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: #989898;
+}
+
+.search{
+    margin-top: 10px;
+}
+
+input{
+    width: 600px;
+    padding: 5px 10px;
+}

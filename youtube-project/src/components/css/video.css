@@ -1,0 +1,41 @@
+.body-container{
+    position: absolute;
+    width: 100%;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  5rem;
+    border-radius: 10px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.react-player{
+    overflow: hidden;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.notes-container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 5px solid grey;
+    border-style: double;
+    max-height: 600px;
+    width: 245px;
+    overflow: scroll;
+    margin: 10px;
+}
+
+.note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
